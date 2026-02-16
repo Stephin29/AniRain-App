@@ -1,11 +1,11 @@
 {
-  "firsttime": False,
-  "show18": False,
-  "theme": default,
-  "anime_settings":{
+  "firsttime": false,
+  "show18": false,
+  "theme": "default",
+  "anime_settings": {
     "PrefferedStreamQuality": "1080"
   },
-  "rainify_settings":{
+  "rainify_settings": {
     "PrefferedAudioQuality": "328"
   }
 }
