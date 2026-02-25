@@ -1,5 +1,5 @@
 {
-  1:{"type":"bugfix", "data":"25-02-2026","description":"This had a BUG Test Update 1"},
-  2:{"type":"uifix", "data":"26-02-2026","description":"This had a UI Test Update 2"},
-  3:{"type":"majorupdate", "data":"30-02-2026","description":"This had a MAJOR Test Update 3"}
+  "1":{"type":"bugfix", "data":"25-02-2026","description":"This had a BUG Test Update 1", "seen":false},
+  "2":{"type":"uifix", "data":"26-02-2026","description":"This had a UI Test Update 2", "seen":false},
+  "3":{"type":"majorupdate", "data":"30-02-2026","description":"This had a MAJOR Test Update 3", "seen":false}
 }
