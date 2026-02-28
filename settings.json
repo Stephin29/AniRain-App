@@ -2,10 +2,44 @@
   "firstboot": true,
   "show18": false,
   "theme": "default",
-  "anime_settings": {
-    "PrefferedStreamQuality": "1080"
-  },
-  "rainify_settings": {
-    "PrefferedAudioQuality": "328"
-  }
+  "general_settings": [
+    {
+      "key": "auto_play",
+      "option_type": "switch",
+      "title": "Auto-Play Next Episode",
+      "subtitle": "Automatically start the next episode in the series.",
+      "default": true
+    },
+    {
+      "key": "auto_skip",
+      "option_type": "switch",
+      "title": "Auto-Skip Intro & Outro",
+      "subtitle": "Automatically skip opening and ending sequences.",
+      "default": false
+    },
+    {
+      "key": "stream_quality",
+      "option_type": "menu",
+      "title": "Stream Quality",
+      "subtitle": "Set your preferred resolution for video playback.",
+      "options": ["1080p (Ultra)", "720p (High)", "480p (Fast)"],
+      "current_selection": "1080p (Ultra)"
+    },
+    {
+      "key": "audio_lang",
+      "option_type": "menu",
+      "title": "Preferred Audio (Dub)",
+      "subtitle": "Choose your default audio language.",
+      "options": ["Japanese (Original)", "English", "Spanish", "French"],
+      "current_selection": "Japanese (Original)"
+    },
+    {
+      "key": "sub_lang",
+      "option_type": "menu",
+      "title": "Subtitle Language",
+      "subtitle": "Choose your preferred subtitle language.",
+      "options": ["English", "Spanish", "Portuguese", "None"],
+      "current_selection": "English"
+    }
+  ]
 }
