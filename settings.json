@@ -8,14 +8,14 @@
       "option_type": "switch",
       "title": "Auto-Play Next Episode",
       "subtitle": "Automatically start the next episode in the series.",
-      "default": true
+      "current_value": true
     },
     {
       "key": "auto_skip",
       "option_type": "switch",
       "title": "Auto-Skip Intro & Outro",
       "subtitle": "Automatically skip opening and ending sequences.",
-      "default": false
+      "current_value": false
     },
     {
       "key": "stream_quality",
