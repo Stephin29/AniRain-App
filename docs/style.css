@@ -99,7 +99,7 @@ body {
 /* Tagline fade in after title */
 @keyframes taglineFade {
     0% { opacity: 0; letter-spacing: 14px; }
-    100% { opacity: 0.45; letter-spacing: 10px; }
+    100% {opacity: 0.85;letter-spacing: 10px;}
 }
 
 /* 5. Title Wrapper */
@@ -156,7 +156,7 @@ body {
 /* "Rain" — bolder, slightly dimmed for contrast */
 .title-main .title-part-rain {
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.72);
+    color: rgba(255, 255, 255, 1.02);
 }
 
 /* Echo split colors */
